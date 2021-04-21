@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Services.dll.config
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Services.dll
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Services.pdb
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\ToxTracker.Services.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\ToxTracker.Services.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\ToxTracker.Services.csproj.CopyComplete
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\ToxTracker.Services.dll
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\ToxTracker.Services.pdb

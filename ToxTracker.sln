@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToxTracker.WebMVC", "ToxTracker.WebMVC\ToxTracker.WebMVC.csproj", "{4BE7E42A-3958-4B2C-8C19-07E02B325459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToxTracker.Data", "ToxTracker.Data\ToxTracker.Data.csproj", "{A82B4C38-0C33-4E22-83BF-4DDFE04AC13C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToxTracker.Models", "ToxTracker.Models\ToxTracker.Models.csproj", "{74736695-B32A-4D31-B5B4-43F85E0E7169}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToxTracker.Services", "ToxTracker.Services\ToxTracker.Services.csproj", "{931BAD46-4E49-4879-8FF2-B25B90B6D35C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToxTracker.Contracts", "ToxTracker.Contracts\ToxTracker.Contracts.csproj", "{6919EF9E-DA7E-4FB9-829C-9DABFADC9010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToxTracker.Tests", "ToxTracker.Tests\ToxTracker.Tests.csproj", "{97246293-6DDB-4D63-A168-970723BA310A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE7E42A-3958-4B2C-8C19-07E02B325459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE7E42A-3958-4B2C-8C19-07E02B325459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE7E42A-3958-4B2C-8C19-07E02B325459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE7E42A-3958-4B2C-8C19-07E02B325459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82B4C38-0C33-4E22-83BF-4DDFE04AC13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82B4C38-0C33-4E22-83BF-4DDFE04AC13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82B4C38-0C33-4E22-83BF-4DDFE04AC13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82B4C38-0C33-4E22-83BF-4DDFE04AC13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74736695-B32A-4D31-B5B4-43F85E0E7169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74736695-B32A-4D31-B5B4-43F85E0E7169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74736695-B32A-4D31-B5B4-43F85E0E7169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74736695-B32A-4D31-B5B4-43F85E0E7169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931BAD46-4E49-4879-8FF2-B25B90B6D35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931BAD46-4E49-4879-8FF2-B25B90B6D35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931BAD46-4E49-4879-8FF2-B25B90B6D35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931BAD46-4E49-4879-8FF2-B25B90B6D35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6919EF9E-DA7E-4FB9-829C-9DABFADC9010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6919EF9E-DA7E-4FB9-829C-9DABFADC9010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6919EF9E-DA7E-4FB9-829C-9DABFADC9010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6919EF9E-DA7E-4FB9-829C-9DABFADC9010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97246293-6DDB-4D63-A168-970723BA310A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97246293-6DDB-4D63-A168-970723BA310A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97246293-6DDB-4D63-A168-970723BA310A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97246293-6DDB-4D63-A168-970723BA310A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EDC58B2-6B03-461F-A732-39134AB12767}
+	EndGlobalSection
+EndGlobal
