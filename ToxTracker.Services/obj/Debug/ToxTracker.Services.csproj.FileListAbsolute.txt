@@ -14,3 +14,9 @@ C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\Tox
 C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\ToxTracker.Services.csproj.CopyComplete
 C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\ToxTracker.Services.dll
 C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\obj\Debug\ToxTracker.Services.pdb
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Data.dll
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Models.dll
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Data.pdb
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Data.dll.config
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Models.pdb
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Services\bin\Debug\ToxTracker.Models.dll.config

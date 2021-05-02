@@ -58,6 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StandardModels\StandardCreate.cs" />
+    <Compile Include="StandardModels\StandardEdit.cs" />
+    <Compile Include="StandardModels\StandardListItem.cs" />
+    <Compile Include="StockModels\StockCreate.cs" />
+    <Compile Include="StockModels\StockListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

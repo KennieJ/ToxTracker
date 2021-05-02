@@ -24,11 +24,13 @@ namespace ToxTracker.Data
         [Required]
         public string LotNumber { get; set; }
 
-        [Required]
         public string CatNumber { get; set; }
 
         [Required]
         public bool IsDeuterated { get; set; }
+
+        [Required]
+        public DateTimeOffset RecDate { get; set; }
 
         public DateTimeOffset OpenDate { get; set; }
         

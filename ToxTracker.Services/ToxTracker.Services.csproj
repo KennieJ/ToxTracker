@@ -58,10 +58,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StandardService.cs" />
+    <Compile Include="StockService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ToxTracker.Data\ToxTracker.Data.csproj">
+      <Project>{A82B4C38-0C33-4E22-83BF-4DDFE04AC13C}</Project>
+      <Name>ToxTracker.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToxTracker.Models\ToxTracker.Models.csproj">
+      <Project>{74736695-B32A-4D31-B5B4-43F85E0E7169}</Project>
+      <Name>ToxTracker.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -14,3 +14,7 @@ C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Data\obj\Debug\ToxTrac
 C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Data\obj\Debug\ToxTracker.Data.csproj.CopyComplete
 C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Data\obj\Debug\ToxTracker.Data.dll
 C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Data\obj\Debug\ToxTracker.Data.pdb
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Data\obj\Debug\ToxTracker.Data.Migrations.InitialMigration.resources
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Data\obj\Debug\ToxTracker.Data.csproj.GenerateResource.cache
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Data\obj\Debug\ToxTracker.Data.Migrations._20210501Migration.resources
+C:\ElevenFiftyProjects\RedBadgeWork\ToxTracker\ToxTracker.Data\obj\Debug\ToxTracker.Data.Migrations._20210501Migration2.resources
