@@ -169,9 +169,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AnalyteController.cs" />
+    <Compile Include="Controllers\ControlChartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\QCTypeController.cs" />
     <Compile Include="Controllers\StandardController.cs" />
+    <Compile Include="Controllers\StockController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -191,6 +195,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\ToxTrackerWebMVC - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -237,10 +242,30 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Standard\Index.cshtml" />
-    <Content Include="Views\Standard\Create.cshtml" />
     <Content Include="Views\Standard\Details.cshtml" />
     <Content Include="Views\Standard\Edit.cshtml" />
     <Content Include="Views\Standard\Delete.cshtml" />
+    <Content Include="Views\Stock\Index.cshtml" />
+    <Content Include="Views\Standard\Create.cshtml" />
+    <Content Include="Views\Stock\Create.cshtml" />
+    <Content Include="Views\Stock\Edit.cshtml" />
+    <Content Include="Views\Stock\Details.cshtml" />
+    <Content Include="Views\Stock\Delete.cshtml" />
+    <Content Include="Views\Analyte\Index.cshtml" />
+    <Content Include="Views\Analyte\Create.cshtml" />
+    <Content Include="Views\Analyte\Details.cshtml" />
+    <Content Include="Views\Analyte\Edit.cshtml" />
+    <Content Include="Views\Analyte\Delete.cshtml" />
+    <Content Include="Views\QCType\Index.cshtml" />
+    <Content Include="Views\QCType\Create.cshtml" />
+    <Content Include="Views\QCType\Details.cshtml" />
+    <Content Include="Views\QCType\Edit.cshtml" />
+    <Content Include="Views\QCType\Delete.cshtml" />
+    <Content Include="Views\ControlChart\Index.cshtml" />
+    <Content Include="Views\ControlChart\Create.cshtml" />
+    <Content Include="Views\ControlChart\Details.cshtml" />
+    <Content Include="Views\ControlChart\Edit.cshtml" />
+    <Content Include="Views\ControlChart\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

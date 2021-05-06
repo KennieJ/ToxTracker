@@ -57,17 +57,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnalyteModels\AnalyteCreate.cs" />
+    <Compile Include="AnalyteModels\AnalyteListItem.cs" />
+    <Compile Include="AnalyteModels\AnalyteEdit.cs" />
+    <Compile Include="ControlChartModels\ControlCreate.cs" />
+    <Compile Include="ControlChartModels\ControlEdit.cs" />
+    <Compile Include="ControlChartModels\ControlListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QCTypeModels\QCTypeCreate.cs" />
+    <Compile Include="QCTypeModels\QCTypeEdit.cs" />
+    <Compile Include="QCTypeModels\QCTypeListItem.cs" />
     <Compile Include="StandardModels\StandardCreate.cs" />
     <Compile Include="StandardModels\StandardEdit.cs" />
     <Compile Include="StandardModels\StandardListItem.cs" />
     <Compile Include="StockModels\StockCreate.cs" />
+    <Compile Include="StockModels\StockEdit.cs" />
     <Compile Include="StockModels\StockListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -10,6 +10,11 @@ namespace ToxTracker.Services
 {
     public class StockService
     {
+        private readonly Guid _userId;
+        public StockService(Guid userId)
+        {
+            _userId = userId;
+        }
         private readonly ApplicationDbContext _context = new ApplicationDbContext();
 
         //Create
@@ -59,6 +64,38 @@ namespace ToxTracker.Services
             };
             return stockDetail;
 
+        }
+
+        public bool UpdateStock(StockEdit model)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Stocks
+                        .Single(e => e.Id == model.Id);
+
+                entity.Assay = model.Assay;
+                entity.LotNumber = model.LotNumber;
+                entity.Type = model.Type;
+                entity.IsApproved = model.IsApproved;
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
+
+        public bool DeleteStock(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Stocks
+                        .Single(e => e.Id == id);
+                ctx.Stocks.Remove(entity);
+
+                return ctx.SaveChanges() == 1;
+            }
         }
     }
 }
