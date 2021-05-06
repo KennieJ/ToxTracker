@@ -1,0 +1,50 @@
+﻿@model ToxTracker.Models.ControlChartModels.ControlListItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ControlListItem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantValue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantValue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BatchName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BatchName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QCId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QCId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

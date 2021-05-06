@@ -1,0 +1,66 @@
+﻿@model ToxTracker.Models.QCTypeModels.QCTypeListItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>QCTypeListItem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Level)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Level)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Concentration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Concentration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Unit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Unit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnalyteId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnalyteId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnalyteName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnalyteName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AssayName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssayName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
